@@ -1,0 +1,107 @@
+@media(min-width: 900px){
+    .main{
+        background:peachpuff ;
+        flex-wrap: wrap;
+    }
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.menu{
+    display: flex;
+    background: peachpuff;
+}
+.logo h1{
+    flex: 1;
+    margin-left: 40px;
+}
+.options{
+    display: flex;
+    flex: 2;
+    padding: 10px;
+    
+}
+.option{
+    display: flex;
+    flex: 2;
+    justify-content: space-evenly;
+}
+
+
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.link:hover{
+    color: red;
+}
+.info{
+    background: peachpuff;
+    height: 480px;
+    display: flex;
+
+}
+
+.text{
+    height: 100%;
+    width: 100%;
+    margin-left: 50px;
+    margin-top: 150px;
+  
+}
+
+
+.text p {
+    display: flex;
+     font-weight: bold;
+     letter-spacing: 1px;
+     line-height: 2;
+}
+.image img{
+    margin-top: 30px;
+    margin-left: 100px;
+    height: 80%; 
+    width: 60%;
+}
+.image h2{
+    text-align: center;
+    font-weight: bold;
+    margin-right: 70px;
+    margin-top: 10px;
+}
+  
+.icons{
+    display: flex;
+    background: black;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: row;  
+    padding: 5px 0px 5px 0px; 
+}
+
+.github img, .linkedin img{
+    display: flex;
+    background: white;
+    text-decoration: none;
+    width: 35px;
+    height: 35px;
+    border: 1px white solid;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+.icons a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+.icons a:hover{
+    color: red;
+}

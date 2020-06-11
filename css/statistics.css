@@ -1,0 +1,14 @@
+@media(min-width: 400px){
+    .cases{
+        background: peachpuff;
+        height: 620px;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+.totalCases , .closedCases{
+    border: 2px black solid;
+
+}
+

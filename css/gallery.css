@@ -1,0 +1,13 @@
+@media(min-width: 400px){
+  .background{
+    background: peachpuff; 
+    padding-left: 90px;
+  }
+}
+.images img{
+    border: 10px black solid;
+    height: 300px;
+    width: 300px;
+    border-radius: 20%;
+    padding: 30px;
+}
